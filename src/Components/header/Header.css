@@ -1,0 +1,74 @@
+.mainHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 15% ;
+    height: 80px ;
+    display: flex;
+    align-items: center;
+}
+
+.headerList{
+    min-width: 30vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.headerList li{
+    position: relative;
+    list-style: none;
+    padding: 5px;
+    overflow: hidden;
+    margin: 0 10px;    
+
+}
+
+.headerList li::before{
+    content: '';
+    width:100%;
+    height: 4px;
+    position: absolute;
+    background-color: black;
+    bottom: 0;
+    left: -100%;
+    transition: .7s ease;
+}
+.headerList li:hover::before{
+    left: 0%;
+}
+
+.headerList li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.user{
+    width: 12%;
+    height: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Login{
+    width: 70px ;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+}
+.registration{
+    width: 70px ;
+    height: 40px;
+    background-color: red;
+}
