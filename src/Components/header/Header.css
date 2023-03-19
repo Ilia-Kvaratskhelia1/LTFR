@@ -1,12 +1,18 @@
 .mainHeader{
     width: 100%;
     display: flex;
-    justify-content: center;
     padding: 0;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(42, 91, 91, 0.444);
+    z-index: 100;
 }
+
 header{
     width: 90%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .logo{
@@ -14,6 +20,7 @@ header{
     height: 80px ;
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .headerList{
@@ -49,10 +56,11 @@ header{
 }
 
 .headerList li a{
-    color: black;
     text-decoration: none;
     font-size: 1.4rem;
     cursor: pointer;
+    color: white;
+
 }
 
 .user{
@@ -71,4 +79,74 @@ header{
     width: 70px ;
     height: 40px;
     background-color: red;
+}
+.burgerMenu{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: none;
+    cursor: pointer;
+}
+.burgerMenu span{
+    width: 100%;
+    height: 4px;
+    border-radius: 3px;
+    background-color: white;
+
+}
+.mainBurgboard{
+    display: none;
+}
+   
+
+@media only screen and (max-width:700px){
+    .headerList{
+        display: none;
+    }
+    .user{
+        display: none;
+    }
+    .burgerMenu{
+        display: inherit;
+    }
+    .mainBurgboard{
+        width: 90%;
+        height: 250px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(42, 91, 91, 0.444);
+
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        transition: .6s ease-in-out;
+        z-index: -2;
+        display: inherit;
+        top: -1100%;
+    
+    }
+    .burgerBoard{
+        position: absolute;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        z-index: -1;
+
+            }
+            .burgerBoard li{
+                list-style: none;
+                font-size: 1.4rem;
+                cursor: pointer;
+            }
+            .burgerBoard a{
+                color: white;
+                text-decoration: none;
+                cursor: pointer;
+            }
+  
 }

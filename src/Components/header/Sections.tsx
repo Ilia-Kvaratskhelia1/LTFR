@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react'
 import "./Section.css";
 import {Splide , SplideSlide} from "@splidejs/react-splide"
 import '@splidejs/splide/dist/css/splide.min.css';
+import { Autoplay } from 'swiper';
 
 function Sections() {
   const hand = [  
@@ -20,6 +21,10 @@ function Sections() {
       options={{
         perPage:1,
         waitForTransition:true,
+        type:'loop',
+        rewind:false,
+        speed:990,
+        // arrows:false
       }}
       >
         
