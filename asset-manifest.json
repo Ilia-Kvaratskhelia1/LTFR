@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LTFR/static/css/main.e480042a.css",
+    "main.js": "/LTFR/static/js/main.574ddfc8.js",
+    "index.html": "/LTFR/index.html",
+    "main.e480042a.css.map": "/LTFR/static/css/main.e480042a.css.map",
+    "main.574ddfc8.js.map": "/LTFR/static/js/main.574ddfc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e480042a.css",
+    "static/js/main.574ddfc8.js"
+  ]
+}
