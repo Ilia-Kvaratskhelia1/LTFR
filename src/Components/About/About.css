@@ -1,26 +1,22 @@
 .AboutContainer{
     width: 100vw;
-    height: 100vh;
-    background-image: url(/public/kayakata.jpg);
-    background-size: cover;
-    object-fit: cover;
-    position: relative;
+    height: 200vh;
 }
-.TextOnBg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 100px;
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    transform: translate(-50% , -20%);
+.aboutLuna{
+    width: 100%;
+    height:100vh;
+    background-position: 50% 20%;
+    background-size: cover;
+    background-image: url(./lunass.webp);
+}
+.aboutLuna:hover{
+transform: scale(1.2);
 }
 
-.TextOnBg h1{
-    font-size: 10rem;
-}
-.TextOnBg h1 span{
-    color: white;
+.aboutDila{
+    width: 100%;
+    height: 100vh;
+    background-position: 50% 20%;
+    background-size: cover;
+    background-image: url(./dilaalsukhumi.jpg);
 }

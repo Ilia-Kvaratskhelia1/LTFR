@@ -5,6 +5,7 @@ import Sections from './Components/Section/Sections';
 import About from './Components/About/About';
 import StartAnimation from './Components/loadAnimation/StartAnimation';
 function App() {
+
   return (
     <div className="App">
       <StartAnimation/>
