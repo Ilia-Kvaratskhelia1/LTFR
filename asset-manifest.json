@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/LTFR/static/css/main.f0dcf13a.css",
-    "main.js": "/LTFR/static/js/main.2e918cfb.js",
-    "static/media/blue.jpg": "/LTFR/static/media/blue.6fa40261a1fd850debde.jpg",
-    "static/media/pink.jpg": "/LTFR/static/media/pink.28c8fa89f9a4a58abccf.jpg",
-    "static/media/kayakata.jpg": "/LTFR/static/media/kayakata.b074537f134de0f2ffd6.jpg",
-    "static/media/yellow.avif": "/LTFR/static/media/yellow.8bdb9e68ca89f6fcbc82.avif",
+    "main.css": "/LTFR/static/css/main.4837f5dd.css",
+    "main.js": "/LTFR/static/js/main.26ad1972.js",
+    "static/media/lunass.webp": "/LTFR/static/media/lunass.8c51f1ab103dd84f3976.webp",
+    "static/media/aante.jpeg": "/LTFR/static/media/aante.1dbf19377c967b8774da.jpeg",
+    "static/media/dilaalsukhumi.jpg": "/LTFR/static/media/dilaalsukhumi.71786af50d963048333c.jpg",
     "index.html": "/LTFR/index.html",
-    "main.f0dcf13a.css.map": "/LTFR/static/css/main.f0dcf13a.css.map",
-    "main.2e918cfb.js.map": "/LTFR/static/js/main.2e918cfb.js.map"
+    "main.4837f5dd.css.map": "/LTFR/static/css/main.4837f5dd.css.map",
+    "main.26ad1972.js.map": "/LTFR/static/js/main.26ad1972.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0dcf13a.css",
-    "static/js/main.2e918cfb.js"
+    "static/css/main.4837f5dd.css",
+    "static/js/main.26ad1972.js"
   ]
 }
