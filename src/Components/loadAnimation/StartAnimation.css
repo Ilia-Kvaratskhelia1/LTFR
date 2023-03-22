@@ -1,0 +1,35 @@
+.startAnimation{
+    width: 100%;
+    height: 98vh;
+    position: absolute;
+    z-index: 1111110;
+    display: flex;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.startAnimation span{
+width: 33.3%;
+height: 100vw;
+}
+
+
+.startAnimation span:nth-child(1){
+    background-image: url(/public/startAnimationBg/blue.jpg);
+    background-position: 50% 40%;
+    height: 100%;
+    background-size: cover;
+}
+
+.startAnimation span:nth-child(2){
+    background-image: url(/public/startAnimationBg/yellow.avif);
+    background-position: 20% 50%;
+    height: 100%;
+    background-size: cover;
+}
+.startAnimation span:nth-child(3){
+    background-image: url(/public/startAnimationBg/pink.jpg);
+    background-position: 50% 40%;
+    height: 100%;
+    background-size: cover;
+}

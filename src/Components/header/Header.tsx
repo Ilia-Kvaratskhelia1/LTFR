@@ -1,5 +1,7 @@
-import React, { useState } from "react";
 import "./Header.css";
+import  { useState } from "react";
+import { motion } from "framer-motion"
+
 function Header() {
   const [LTFR, setLTFR] = useState(true);
   const [burger, setBurger] = useState(true);
@@ -10,14 +12,23 @@ function Header() {
   const burgerActive = ()=>{
     setBurger(!burger)
   }
+  
   return (
     <div className="mainHeader">
-        <header>
-          
-          <div className="logo">
+        <header >
+       
+          <motion.div  className="logo"
+          initial={{x:-100 }}
+          animate={{x:0 }}
+          transition={{duration:2,delay:1}}
+          >
             <h1>KAYA</h1>
-          </div>
-          <ul className="headerList">
+          </motion.div>
+          <motion.ul className="headerList"
+          initial={{y:-100 }}
+          animate={{y:0 }}
+          transition={{duration:1,delay:1}}
+          >
             <li>
               <a href="#">Home</a>
             </li>
@@ -33,11 +44,15 @@ function Header() {
             <li onClick={blur} >
               <a href="#" className="drop">LTFR </a>
             </li>
-          </ul>
-          <div className="user">
+          </motion.ul>
+          <motion.div className="user"
+             initial={{x:100 }}
+             animate={{x:0 }}
+             transition={{duration:1,delay:1}}
+          >
           <span className='Login'></span>
           <span className='registration'></span>
-          </div>
+          </motion.div>
           <div className="burgerMenu" onClick={burgerActive}>
             <span></span>
             <span></span>

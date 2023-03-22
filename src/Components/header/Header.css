@@ -1,4 +1,5 @@
-.mainHeader{
+   
+    .mainHeader{
     width: 100%;
     display: flex;
     padding: 0;
@@ -44,9 +45,9 @@ header{
 .headerList li::before{
     content: '';
     width:100%;
-    height: 4px;
+    height: 1px;
     position: absolute;
-    background-color: black;
+    background-color: white;
     bottom: 0;
     left: -100%;
     transition: .7s ease;
@@ -118,7 +119,6 @@ header{
         display: flex;
         justify-content: center;
         background-color: rgba(42, 91, 91, 0.444);
-
         border-bottom-left-radius: 7px;
         border-bottom-right-radius: 7px;
         transition: .6s ease-in-out;
